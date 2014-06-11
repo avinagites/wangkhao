@@ -138,17 +138,18 @@ nav h1 {
 /* Slider ----------------------------*/
 .slider {
 	background-color:#ebebeb;
+	min-height: 323px;
 }
 .slider .container {
-	background: url(../img/Wangkhao-College.jpg) 0 0 no-repeat;
-	background-size: 50%;
+
+		background-size:  cover;
 }
 .slider .container .row-fluid .player{
 	padding:3% 0% 0% 2%;
 }
 .slider .container .span6.right-form{
-	background: rgba(255, 255, 255, 0.75);
 	position: relative;
+	background: url(../img/Wangkhao-College.jpg) 0 0 no-repeat;
 }
 .slider .container .span6.right-form {
 	border-top-width:2px;
