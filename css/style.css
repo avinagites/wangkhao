@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 /* ============================== */
-/* 
-	- Title: Wangkhao College Temporary Landing Page 
+/*
+	- Title: Wangkhao College Temporary Landing Page
 */
 /* ============================== */
 
@@ -26,8 +26,8 @@
 /*	General Style
 /* ---------------------------------------------------------------------- */
 
-body { 
-	background: url(../img/background/00.png) 0 0 repeat; 
+body {
+	background: url(../img/background/00.png) 0 0 repeat;
 	font-family: 'Open Sans', sans-serif;
 	color:#555555;
 	font-weight:400;
@@ -52,7 +52,7 @@ h6 {
 	font-weight:400;
 }
 p{
-	line-height:21px;		
+	line-height:21px;
 }
 .video iframe {
 	border: none;
@@ -75,10 +75,10 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 }
 
 footer ul.social li a, footer h6 a, p a, a.navi-right, a.navi-left, .form input.button, .newsletter input.button, .courses .item .btn, .table-button a  {
-	-webkit-transition: all 0.2s ease-out; 
+	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out; 
-	-ms-transition: all 0.2s ease-out; 
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
 /* ---------------------------------------------------------------------- */
@@ -87,7 +87,7 @@ footer ul.social li a, footer h6 a, p a, a.navi-right, a.navi-left, .form input.
 
 
 /* Top Bar ----------------------------*/
-.top { 
+.top {
 	padding: 11px 0;
 	color:#fff;
 }
@@ -100,7 +100,7 @@ footer ul.social li a, footer h6 a, p a, a.navi-right, a.navi-left, .form input.
 }
 .top .container p span{
 	padding:0 0 0 20px;
-	background: url(../img/bubble.png) left top no-repeat; 
+	background: url(../img/bubble.png) left top no-repeat;
 	margin: 0 0 0 15px;
 }
 
@@ -108,9 +108,9 @@ footer ul.social li a, footer h6 a, p a, a.navi-right, a.navi-left, .form input.
 
 /* Header ----------------------------*/
 
-nav { 
+nav {
 	background: url(../img/shadow_sep.png) left top repeat-x;
-	padding:20px 0; 
+	padding:20px 0;
 }
 nav h1 {
 	text-align: right;
@@ -132,7 +132,7 @@ nav h1 {
 	position: relative;
 }
 .multiple .bxslider {
-	margin:0 !important; 
+	margin:0 !important;
 }
 
 /* Slider ----------------------------*/
@@ -140,14 +140,14 @@ nav h1 {
 	background-color:#ebebeb;
 }
 .slider .container {
-	background: url(../img/big-image.jpg) 0 0 no-repeat;
-	background-size: 100%;
+	background: url(../img/Wangkhao-College.jpg) 0 0 no-repeat;
+	background-size: 50%;
 }
 .slider .container .row-fluid .player{
 	padding:3% 0% 0% 2%;
 }
 .slider .container .span6.right-form{
-	background: transparent url(../img/form-bg.png) 0 0 repeat;
+	background: rgba(255, 255, 255, 0.75);
 	position: relative;
 }
 .slider .container .span6.right-form {
@@ -167,7 +167,7 @@ nav h1 {
 	padding:20px 30px 30px 30px;
 	text-align:center;
 	color:#333333;
-	
+
 }
 
 .slider .form h2 {
@@ -218,7 +218,7 @@ nav h1 {
 .slider .form input.button{
 	float: center;
 	width: auto;
-	color: #fff;	
+	color: #fff;
 	padding: 8px 10px 8px 35px;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
@@ -319,7 +319,7 @@ a.navi-left{
 }
 a.navi-left:hover{
 	background-position: bottom left;
-	
+
 }
 a.navi-right{
 	display: block;
@@ -343,7 +343,7 @@ a.navi-right:hover{
 /* Courses ----------------------------*/
 
 .carrousell {
-    
+
 }
 
 .courses {
@@ -363,7 +363,7 @@ a.navi-right:hover{
 	cursor: default;
 	display: block;
     margin: -45px auto 20px;
-			
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -371,15 +371,15 @@ a.navi-right:hover{
 	transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../img/img-course-1.jpg);
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../img/img-course-2.jpg);
 }
 
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url(../img/img-course-3.jpg);
 }
 .ch-info {
@@ -388,19 +388,19 @@ a.navi-right:hover{
 	height: 100%;
 	border-radius: 50%;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	
+
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
-	
+
 	-webkit-backface-visibility: hidden; /*for a smooth font */
 
 }
@@ -421,12 +421,12 @@ a.navi-right:hover{
 
 .ch-item:hover .ch-info {
 	opacity: 1;
-	
+
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
-	transform: scale(1);	
+	transform: scale(1);
 }
 
 .courses .item p {
@@ -657,7 +657,7 @@ footer ul.social li a.twitter:hover{
 	background-image:url(../../img/newsletter-bg.png);
 	background-repeat:no-repeat;
     background-position: 11px 50%;
-    float: none;	
+    float: none;
     margin: 0 auto;
     padding-left: 37px;
     max-width: 209px;
@@ -679,7 +679,7 @@ footer ul.social li a.twitter:hover{
 @media handheld, only screen and (max-width: 767px) {
 	body {
 		padding:0;
-	}	
+	}
 	nav{
 		text-align: center;
 	}
@@ -697,7 +697,7 @@ footer ul.social li a.twitter:hover{
 @media handheld, only screen and (max-width: 600px) {
 	body {
 		padding:0;
-	}	
+	}
 	nav {
 		text-align: center;
 	}
@@ -708,15 +708,15 @@ footer ul.social li a.twitter:hover{
 @media handheld, only screen and (max-width: 568px) {
 	body {
 		padding:0;
-	}	
+	}
 	nav{
 		text-align: center;
-	}	
+	}
 	.form .row1, .form .row2, .form .row3, .form .row4 {
 		   width: 100%;
 	}
-	
-	
+
+
 	.newsletter input {
 	margin: 0 auto 20px auto;
     width: 90%;
@@ -727,9 +727,9 @@ footer ul.social li a.twitter:hover{
          	box-sizing: border-box;
 }
 
-	
-	
-   
+
+
+
 }
 
 
@@ -737,15 +737,15 @@ footer ul.social li a.twitter:hover{
 @media handheld, only screen and (max-width: 480px) {
 	body {
 		padding:0;
-	}	
+	}
 	nav {
 		text-align: center;
-	}	
-	
+	}
+
 	.form .row1, .form .row2, .form .row3, .form .row4 {
 		   width: 100%;
 	}
-    
+
 }
 
 
@@ -753,11 +753,11 @@ footer ul.social li a.twitter:hover{
 @media handheld, only screen and (max-width: 320px) {
 	body {
 		padding:0;
-	}	
+	}
 	nav {
 		text-align: center;
 	}
-	
+
 }
 
 
